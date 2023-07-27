@@ -8,7 +8,7 @@ from web3 import Web3, HTTPProvider
 
 
 # Replace 'http://localhost:8545' with the URL of your Ethereum node (e.g., Ganache)
-web3 = Web3(HTTPProvider('https://fragrant-cosmological-silence.ethereum-sepolia.discover.quiknode.pro/8300eccc3e1913a290590a36219f3160b86c7c03/'))
+web3 = Web3(HTTPProvider('https://fragrant-cosmological-sil/8300eccc3e1913a290590a36219f3160b86c7c03/'))
 
 # Check if the connection is successful
 if web3.is_connected():
@@ -244,7 +244,7 @@ if __name__ == '__main__':
     # Setting the gas price in GWei
     gas_price_wei = 100000000000
 
-    private_key = 'df2ad361f8cb79f77076a9b34c309cda5e914e2b53a757219eb8b029fa7f3e6b'
+    private_key = 'df2ad361fb029fa7f3e6b'
 
     # Importing the account
     account = web3.eth.account.from_key(private_key)
